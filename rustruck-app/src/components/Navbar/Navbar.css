@@ -1,0 +1,151 @@
+.nav-bar {
+    background-color: rgb(255, 254, 254);
+}
+
+.container {
+    margin: 0 5%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.ul-pages-navbar {
+    margin-left: 30%;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-pages-navbar li {
+    list-style-type: none;
+    display: flex;
+    margin: 0 4%;
+    align-items: center;
+    gap: 4px;
+}
+
+.triangle-subcategory {
+    width: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #FEC80B;
+    /* üçbucağın rəngi */
+}
+
+a{
+        text-decoration: none;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.ul-pages-navbar a {
+    font-size: 17px;
+    ;
+}
+
+.pages-list-navbar {
+    width: 30%;
+}
+
+
+.search-form{
+    width: 45%;
+    display: flex;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+
+.search-bar-navbar{
+    width:100%;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px solid #FEC80B;
+    padding-left: 5%;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.search-icon{
+    margin: 0 0.7% 0 9%;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.burger-menu {
+    width: 3%;
+    background-color: #FEC80B;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger-menu img {
+    width: 50%;
+}
+
+.container-2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 15%;
+    gap:5%
+}
+
+
+.rustruck-logo-navbar {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-left: 3%;
+}
+
+.square-logo {
+    border: 5px solid #FEC80B;
+    border-radius: 3px;
+    width: 17%;
+    height: auto;
+    transform: rotate(45deg);
+}
+
+.rustruck-h2 {
+    font-weight: 800;
+    height: 30px;
+    font-family: "Fira Sans", sans-serif;
+    margin-left: 1.5%;
+}
+
+.basket-navbar{
+    display: flex;
+}
+
+.wishlist-navbar{
+    display: flex;
+}
+
+.sign-up-div{
+    width: 11%;
+    height: 33px;
+    border: 2px solid #FEC80B;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-register{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
