@@ -14,7 +14,7 @@ export default function Navbar() {
                 </div>
                 <div className="rustruck-logo-navbar">
                     <div className="square-logo"></div>
-                    <h2 className="rustruck-h2">RUSTRUCK</h2>
+                    <h2 className="rustruck-h2">RUS<span className="truck-span">TRUCK</span></h2>
                 </div>
                 <div className="pages-list-navbar">
                     <ul className="ul-pages-navbar">

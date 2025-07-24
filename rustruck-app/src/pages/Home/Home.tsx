@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import Category from "../../components/Category/Category";
+import Product from "../../components/Product/Product";
 import Slider from "../../components/Slider/Slider";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
             <Slider />
             <Category/>
             <About/>
+            <Product/>
         </>
     )
 }

@@ -45,13 +45,11 @@
 .about-image img {
     max-width: 130%;
     transform: scale(1.2);
-    /* Yaxınlaşdırma miqdarı */
     transform-origin: bottom left;
-    /* Soldan və yuxarıdan böyüsün */
 }
 
 .square-logo-about {
-    border: 9px solid #FEC80B;
+    border: 11px solid #FEC80B;
     border-radius: 3px;
     width: 11%;
     margin: 0 4% 0 8%;
