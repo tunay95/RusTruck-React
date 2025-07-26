@@ -2,7 +2,8 @@ import "./Product.css"
 import arrowIcon from "../../assets/category/right-arrow-angle.png"
 import cardImage from "../../assets/product/product-image1.png"
 import basketIcon from "../../assets/navbar-items/shopping-cart.png"
-import wishlistIcon from "../../assets/product/heart.png"
+// import wishlistIcon from "../../assets/product/heart.png"
+import {Heart} from "lucide-react"
 
 export default function Product() {
     return (
@@ -24,7 +25,7 @@ export default function Product() {
                     <div className="wishlist-category">
                         <div className="category-name">Caravan</div>
                         <button className="wishlist-icon">
-                            <img className="wishlist-icon-img" src={wishlistIcon} alt="" />
+                            <Heart className="wishlist-icon-svg"/>
                         </button>
                     </div>
                     <div className="product-card-title">
@@ -42,7 +43,7 @@ export default function Product() {
                     <div className="wishlist-category">
                         <div className="category-name">Caravan</div>
                         <button className="wishlist-icon">
-                            <img className="wishlist-icon-img" src={wishlistIcon} alt="" />
+                            <Heart className="wishlist-icon-svg"/>
                         </button>
                     </div>
                     <div className="product-card-title">
@@ -60,7 +61,7 @@ export default function Product() {
                     <div className="wishlist-category">
                         <div className="category-name">Caravan</div>
                         <button className="wishlist-icon">
-                            <img className="wishlist-icon-img" src={wishlistIcon} alt="" />
+                            <Heart className="wishlist-icon-svg"/>
                         </button>
                     </div>
                     <div className="product-card-title">
@@ -78,7 +79,7 @@ export default function Product() {
                     <div className="wishlist-category">
                         <div className="category-name">Caravan</div>
                         <button className="wishlist-icon">
-                            <img className="wishlist-icon-img" src={wishlistIcon} alt="" />
+                            <Heart className="wishlist-icon-svg"/>
                         </button>
                     </div>
                     <div className="product-card-title">

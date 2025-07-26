@@ -1,0 +1,139 @@
+* {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1200px;
+    padding: 5.5% 7%;
+    gap: 10%;
+}
+
+.news-card-section {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 11%;
+}
+
+.news-title-pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-h1 {
+    font-size: 250%;
+}
+
+.news-move-buttons {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.news-move-buttons p {
+    opacity: 0.5;
+    margin-right: 5%;
+
+}
+
+.news-move-buttons button {
+    width: 21%;
+    height: 90%;
+    border: 2px solid rgba(61, 58, 58, 0.8);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.news-move-buttons button:hover{
+    background-color: rgba(61, 58, 58, 0.25);
+    width: 21.2%;
+    height: 91.5%;
+}
+
+
+.left-news-slider {
+    transform: scale(-1, 1);
+}
+
+.news-list {
+    height: 80%;
+    display: flex;
+    gap: 3.5%;
+}
+
+.news-card-time-title {
+    padding: 5% 4%;
+}
+
+.model-count {
+    font-size: small;
+    margin-left: 1%;
+    opacity: 0.5;
+}
+
+.news-image-card {
+    width: 100%;
+}
+
+.news-time {
+    margin-left: 0.5%;
+}
+
+.news-name-card {
+    font-size: 140%;
+    font-weight: 500;
+}
+
+.right-arrow {}
+
+.right-arrow {
+    width: 17%;
+    fill: red;
+}
+
+.news-image-card {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.more-details-news-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5% 0 0 2%;
+    width: 38%;
+    height: 12%;
+    font-size: 85%;
+    gap: 7%;
+    border: 0;
+    background-color: #ffffff;
+    padding-left: 1%;
+}
+
+.more-details-news-button:hover{
+    font-size:87%;
+    transition: transform 0.3ms ease;
+} 
+
+.brands-logo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo{
+    max-width: 150px;
+}
